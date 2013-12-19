@@ -12,7 +12,7 @@ public class test
     {
         final MessageDigest digest = MessageDigest.getInstance("SHA-1");
               
-        FileInputStream is = new FileInputStream("zbetanew.crt");
+        FileInputStream is = new FileInputStream("rootCA.pem");
         
         CertificateFactory cf = CertificateFactory.getInstance( "X.509" );
         
