@@ -1,4 +1,4 @@
-CertPinning
+Android-Per-AppKeystore
 ===========
 
-Java code to generate certificate pins
+Shell Script to add certificates to android keystore
